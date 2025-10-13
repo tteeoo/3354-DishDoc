@@ -1,15 +1,17 @@
 DishDoc: A Recipe Manager
-- Recipes
-    - Create, edit, and delete recipes
-    - Able to add a picture to a recipe
-    - Able to automatically scale recipes
-- Recipe Organization
-    - Able to add tags to recipes
-    - Able to search for recipe by name, tag, and/or ingredient
-- Shopping
-    - Able to add recipes to shopping list
-    - Able to combine quantities of the same ingredient
-    - Able to manually add, edit, or delete items
-- Sharing
-    - Able to export recipes to a file
-    - Able to import recipes from a file
+1 Recipes
+    1.1 Create, edit, and delete recipes
+    1.2 Support adding ingredients, instructions, prep time/cook time/total time
+    1.3 Support adding a picture
+    1.4 Scale a recipe
+2 Organization
+    2.1 Add tags to recipes
+    2.2 Sort recipes by tag
+    2.3 Search for recipe by name, tag, time, and/or ingredient
+3 Sharing
+    3.1 Export recipe to a file
+    3.2 Import recipe from a file
+4 Shopping List
+    4.1 Create, edit, and delete list items
+    4.2 Add ingredients from recipe to list
+    4.3 Combines quantities of same ingredient
