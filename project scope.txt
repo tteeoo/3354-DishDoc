@@ -1,0 +1,15 @@
+DishDoc: A Recipe Manager
+- Recipes
+    - Create, edit, and delete recipes
+    - Able to add a picture to a recipe
+    - Able to automatically scale recipes
+- Recipe Organization
+    - Able to add tags to recipes
+    - Able to search for recipe by name, tag, and/or ingredient
+- Shopping
+    - Able to add recipes to shopping list
+    - Able to combine quantities of the same ingredient
+    - Able to manually add, edit, or delete items
+- Sharing
+    - Able to export recipes to a file
+    - Able to import recipes from a file
