@@ -19,15 +19,15 @@ function evalFraction(fraction) {
 }
 
 // Simplifies a list of ingredients by summing amounts and converting units
-function simplifyList(ingredient, amount, unit) {
+function simplifyList(item) {
     // Stores simplified ingredients
     const newList = new Map();
 
     // Process each ingredient
-    for (let i = 0; i < ingredient.length; i++) {
-        let ing = ingredient[i].toLowerCase();
-        let amt = amount[i];
-        let unt = unit[i];
+    for (let i = 0; i < item.length; i++) {
+        let ing = item[i].ingredient.toLowerCase();
+        let amt = item[i].amount;
+        let unt = item[i].unit;
         // Parse fractional amounts
         if (typeof amt === 'string') {
             if (amt.includes(' ')) {
